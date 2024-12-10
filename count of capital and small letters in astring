@@ -1,0 +1,13 @@
+def strin(n):
+  cap=0
+  sma=0
+  for i in n:
+    if i.isupper():
+      cap=cap+1
+    else:
+      sma=sma+1
+  print("no of capital:"+str(cap))
+  print("no of small:"+str(sma))
+
+p=str(input("enter string:"))
+strin(p)
