@@ -1,0 +1,5 @@
+def pal(s):
+  return s==s[::-1]
+
+n=str(input("enter string:"))
+print(f"{n} is palindrome is a ",pal(n),"statement")
