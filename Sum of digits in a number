@@ -1,0 +1,10 @@
+import math
+num=int(input("enter a no:"))
+rem=0
+sum=0
+while(num!=0):
+    rem=num%10
+    sum=sum+rem
+    num=num//10
+print("The sum is "+str(sum))
+  
