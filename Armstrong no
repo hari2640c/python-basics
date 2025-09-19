@@ -1,0 +1,16 @@
+import math
+num=int(input("enter a no:"))
+rem=0
+testno=num
+armstrong=0
+length=len(str(num))
+while(num!=0):
+    rem=num%10
+    armstrong=armstrong+math.pow(rem,length)
+    num=num//10
+if(testno==armstrong):
+    print("armstrong no")
+else:
+    print("not armstrong")
+    print(armstrong)
+  
